@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping>
+        <class-a>com.nimbus.domain.Journey</class-a>
+        <class-b>com.nimbus.data.JourneyEntity</class-b>
+        <field>
+            <a>passengers</a>
+            <b>passengerEntities</b>
+        </field>
+    </mapping>
+
+    <mapping >
+        <class-a>com.nimbus.domain.Passenger</class-a>
+        <class-b>com.nimbus.data.PassengerEntity</class-b>
+        <field>
+            <a>phonenumber</a>
+            <b>phone</b>
+        </field>
+    </mapping>
+
+</mappings>
